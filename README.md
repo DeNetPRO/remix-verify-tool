@@ -2,7 +2,15 @@
 
 A plugin to verify contracts in Etherscan
 
-[![CircleCI](https://circleci.com/gh/DeNetPRO/remix-verify-tool.svg?style=svg)](https://circleci.com/gh/DeNetPRO/remix-verify-tool)
+### Support Networks
+
+* Ethereum Mainnet
+* Ethereum Testnet's
+* Binance Smart Chain
+* Binance Smart Chain Testnet
+* Polygon Mumbai Testnet
+* Polygon Matic Mainnet
+
 
 Full documentation https://remix-etherscan-plugin.readthedocs.io/en/latest/
 
