@@ -1,4 +1,4 @@
-# Remix Etherscan Plugin
+# Remix Verify Contract Etherscan Plugin
 
 A plugin to verify contracts in Etherscan
 
