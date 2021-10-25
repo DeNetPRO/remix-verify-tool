@@ -1,7 +1,7 @@
 {
-  "name": "remix-etherscan",
-  "version": "0.1.0",
-  "description": "A plugin to verify contracts in Etherscan",
+  "name": "remix-verify-contract",
+  "version": "0.2.0",
+  "description": "A plugin to verify contracts in Etherscan, Polygonscan, BSCScan",
   "author": "MachinaLabs",
   "dependencies": {
     "@remixproject/plugin": "^0.3.19",
