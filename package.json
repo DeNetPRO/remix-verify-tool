@@ -1,5 +1,5 @@
 {
-  "name": "remix-etherscan",
+  "name": "yarn",
   "version": "0.1.0",
   "description": "A plugin to verify contracts in Etherscan",
   "author": "MachinaLabs",
@@ -63,5 +63,7 @@
     "hooks": {
       "pre-push": "yarn tslint && yarn check-formatting && yarn build"
     }
-  }
+  },
+  "main": "index.js",
+  "license": "MIT"
 }

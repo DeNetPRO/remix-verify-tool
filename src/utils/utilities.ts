@@ -3,6 +3,7 @@ import axios from 'axios'
 type RemixClient = PluginClient
 
 export const getEtherScanApi = (network: string) => {
+  return 'https://api.polygonscan.com/api';
   return network === "main"
     ? `https://api.etherscan.io/api`
     : `https://api-${network}.etherscan.io/api`
@@ -23,6 +24,7 @@ export const getReceiptStatus = async (
   apiKey: string,
   etherscanApi: string
 ) => {
+  return 0;
   const params = `guid=${receiptGuid}&module=contract&action=checkverifystatus&apiKey=${apiKey}`
   try {
     const response = await axios.get(`${etherscanApi}?${params}`)

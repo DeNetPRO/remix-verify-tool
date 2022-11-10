@@ -1543,9 +1543,18 @@
     "@remixproject/plugin-utils" "0.3.19"
     axios "^0.21.1"
 
-"@remixproject/plugin@0.3.19", "@remixproject/plugin@^0.3.19":
+"@remixproject/plugin@0.3.19":
   version "0.3.19"
   resolved "https://registry.npmjs.org/@remixproject/plugin/-/plugin-0.3.19.tgz#a3be12c15e6b1ea812f1e31f2a7b20f36d7b3dfe"
+  integrity sha512-jEG0ge0ku1TfFU/46ckvzB0Q7WyeUEQhvatv1oMrVTHUj2o8B0u500V92AcI0YNcxXjn5UNNrHGQBgLcNvYG6Q==
+  dependencies:
+    "@remixproject/plugin-api" "0.3.19"
+    "@remixproject/plugin-utils" "0.3.19"
+    events "3.2.0"
+
+"@remixproject/plugin@^0.3.19":
+  version "0.3.19"
+  resolved "https://registry.yarnpkg.com/@remixproject/plugin/-/plugin-0.3.19.tgz#a3be12c15e6b1ea812f1e31f2a7b20f36d7b3dfe"
   integrity sha512-jEG0ge0ku1TfFU/46ckvzB0Q7WyeUEQhvatv1oMrVTHUj2o8B0u500V92AcI0YNcxXjn5UNNrHGQBgLcNvYG6Q==
   dependencies:
     "@remixproject/plugin-api" "0.3.19"
